@@ -1,0 +1,32 @@
+
+
+
+/* cat.module.css */
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(22, 30, 49, 1);
+}
+.cat {
+  background: url('src/public/imgs/gato2.gif')center/contain no-repeat;;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Media Query para dispositivos con ancho menor o igual a 768px (puedes ajustar este valor según tus necesidades) */
+@media (max-width: 768px) {
+  .cat {
+    width: 200px; /* Cambia el tamaño a 100px para dispositivos móviles */
+    height: 200px;
+  }
+
+
+}

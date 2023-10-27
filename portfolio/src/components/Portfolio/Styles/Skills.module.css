@@ -1,0 +1,45 @@
+.contain {
+  display: flex;
+  flex-direction: column-reverse;
+  grid-gap: 10px; 
+  
+  background-color: rgba(20, 21, 25, 1) ;
+  color: rgb(209, 226, 241);
+  padding: 60px;
+  
+}
+
+.parte1{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: auto;
+  
+  
+}
+.title {
+  font-size: 30px;
+  font-family: 'Courier Prime', monospace;
+}
+
+.listContainer {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
+}
+
+.listItem {
+  margin: 5px;
+  background-color: #ccc;
+  padding: 8px 16px;
+  opacity: 0.8;
+  border: 1px  #666;
+  border-radius: 5px;
+  transition: border 0.3s;
+}
+
+

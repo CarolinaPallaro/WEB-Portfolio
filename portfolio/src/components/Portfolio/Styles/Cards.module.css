@@ -1,0 +1,66 @@
+
+.contenedorDivs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Las tarjetas se ajustarán automáticamente en función del ancho disponible */
+  gap: 10px;
+  background: (22, 30, 49, 1);
+  color: rgb(68, 86, 171);
+  padding: 50px;
+  width: 90%;
+  justify-items: center;
+}
+
+.card {
+  width: 250px; /* Ancho fijo */
+  height: 250px; /* Alto fijo */
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 1px solid #0000007a;
+  margin: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background: white;
+}
+.frontProjects {
+  order: 1; /* Establece el orden para que "frontProjects" aparezca primero */
+}
+
+.backProjects {
+  order: 2; /* Establece el orden para que "backProjects" aparezca después */
+}
+.cardImage {
+  height: 200px;
+  border-radius: 20px 20px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.cardText {
+  padding: 10px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times;
+
+
+}
+
+
+
+.cardText p {
+  color: grey;
+  font-size: 14px;
+  font-weight: 300;
+}

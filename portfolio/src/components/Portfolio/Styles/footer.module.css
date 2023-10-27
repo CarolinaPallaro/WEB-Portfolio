@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+  width: 100%;
+  height: 1%; 
+  margin-top: 2rem;
+  padding: 0,5rem 0; /* Reducir el espaciado superior e inferior */
+  background:rgba(22, 30, 49, 1);
+  color: rgb(188, 188, 187);
+  font-family: 'Times New Roman', Times;
+  font-size: .75rem;
+  line-height: 1rem;
+}
+
+footer .p1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 2%;
+}
+
+  

@@ -1,0 +1,67 @@
+/* sendEmail.module.css */
+
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    max-width: 400px; 
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    padding: 20px; 
+    background-color:rgba(22, 30, 49, 1); /* Color de fondo gris claro */
+    border-radius: 40px; /* Bordes redondeados */
+}
+
+  
+  
+  
+input[type="text"], input[type="email"] {
+    width: 300px; /* Ocupa todo el ancho del contenedor */
+    padding: 5px; /* Espacio interno del campo de entrada */
+    border: 1px solid #cccccc; /* Borde ligero */
+    border-radius: 10px; /* Bordes redondeados */
+    font-family: 'Times New Roman', Times, serif;
+    background-color:  rgba(243, 243, 243, 0.853);
+}
+   
+
+  
+textarea {
+    background-color: rgba(243, 243, 243, 0.853);
+    width: 300px; 
+    height: 100px;
+    padding: 5px;
+    border: 1px solid rgb(255 255 255); 
+    border-radius: 15px; 
+    font-family: 'Times New Roman', Times, serif;
+    resize: none; /* Evita que el usuario pueda redimensionar el textarea */ 
+}
+  
+input:hover, textarea:hover {
+    background-color: #fff; /* Cambiar el fondo a blanco al pasar el mouse */
+}
+
+
+input[type="submit"] {
+    background-color: #00000045; /* Fondo gris */
+    color: #fff; /* Texto blanco */
+    width: 100px;
+    padding: 5px; /* Reducir el espacio interno */
+    border: none; /* Sin borde */
+    border-radius: 100px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px; /* Tamaño de fuente */
+  }
+
+
+  
+ input[type="submit"]:hover{
+    background-color:#f1e3c9d1; 
+    color:rgba(22, 30, 49, 1);
+ }
+  
+
+  
+  
+  
