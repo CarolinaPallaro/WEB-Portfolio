@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: #1a0321;
+    font-family:consolas;
+    
+}
+        
+
+
+.btn-neon{
+    height: 300px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 1s;
+    position: relative;
+   
+}
+ 
+  
+
+.btn-neon:hover{
+    
+    background: #03e6f2;
+    box-shadow: 0 0 10px #255f62, 0 0 0px #03e6f2, 0 0 80px #03e6f2;
+    
+}
+ .btn-neon span{
+    position: absolute;
+    display: block;
+}

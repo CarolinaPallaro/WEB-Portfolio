@@ -15,7 +15,7 @@ const proyectosBack = [
       nombre: "Historial Veterinario (en curso)",
       herramientas: "Java | Firebase | SQL | ",
       descripcion: "App de uso personal para registrar las visitas médicas e insentivar el compromiso de los tutores para con sus mascotas",
-      imagenUrl: "/src/public/imgs/veteGato.avif", 
+      imagenUrl: "/public/imgs/veteGato.avif", 
       link: "En progreso"
         },
   ];
