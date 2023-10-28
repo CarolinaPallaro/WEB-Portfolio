@@ -8,7 +8,7 @@ export const  Presentacion= () => {
          <div className={presentCSS.CircleImage}>
             <img 
             className={presentCSS.miImagen}
-            src="/public/imgs/miFoto.png" 
+            src="/imgs/miFoto.png" 
             alt="Imagen" 
             />
         </div>
