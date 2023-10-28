@@ -3,37 +3,52 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Las tarjetas se ajustarán automáticamente en función del ancho disponible */
   gap: 10px;
-  background: (22, 30, 49, 1);
-  color: rgb(68, 86, 171);
+  color: rgb(209, 226, 241);
   padding: 50px;
   width: 90%;
   justify-items: center;
 }
+.btnLink{
+  background-color: rgb(205, 205, 205);
+  border: 1px solid rgba(101, 100, 100, 0.808);
+}
+
+
+.h2 h2{
+  text-align:center;
+  color: rgb(209, 226, 241);
+  font-family: 'Courier Prime', monospace;
+  font-size: 30px;
+}
+
+.contenedorDivs h3{
+  font-family: 'Courier Prime', monospace;
+
+}
 
 .card {
   width: 250px; /* Ancho fijo */
-  height: 250px; /* Alto fijo */
+  height: 270px; /* Alto fijo */
   display: flex;
   flex-direction: column;
-  border-radius: 20px;
   border: 1px solid #0000007a;
   margin: 10px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  box-shadow: 5px 5px 1px rgba(211, 1, 157, 1);
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  background: white;
+  background: rgba(255, 255, 255, 0.645);
+  opacity: 0,07;
 }
 .frontProjects {
-  order: 1; /* Establece el orden para que "frontProjects" aparezca primero */
+  order: 1; 
 }
 
 .backProjects {
-  order: 2; /* Establece el orden para que "backProjects" aparezca después */
+  order: 2; 
 }
 .cardImage {
   height: 200px;
-  border-radius: 20px 20px 0 0;
-  background-size: cover;
+  background-size:auto;
   background-position: center;
 }
 
@@ -42,25 +57,27 @@
 }
 
 button {
-  background-color: #007BFF;
+  background:rgba(0, 75, 107, 1);
   color: white;
   border: none;
-  border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
+  color:rgba(20, 21, 25, 1);
+ 
 }
 
-h2 {
+cardText h2 {
   font-size: 18px;
   font-family: 'Times New Roman', Times;
-
+   color: rgba(20, 21, 25, 1)
+ 
 
 }
 
 
 
 .cardText p {
-  color: grey;
+   color: rgba(20, 21, 25, 1);
   font-size: 14px;
   font-weight: 300;
 }

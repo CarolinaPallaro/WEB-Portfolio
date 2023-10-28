@@ -16,7 +16,8 @@ const ProjectsCard = () => {
               <p>{proyecto.herramientas}</p>
               <p>{proyecto.descripcion}</p>
               <Link to={proyecto.link}>
-                <button>Ver más</button>
+                <button
+                 className={CardCss.btnLink}>Ver más</button>
               </Link>
             </div>
           </div>
@@ -33,7 +34,9 @@ const ProjectsCard = () => {
               <p>{proyectoB.herramientas}</p>
               <p>{proyectoB.descripcion}</p>
               <Link to={proyectoB.link}>
-                <button>Ver más</button>
+                <button
+                className={CardCss.btnLink}
+                >Ver más</button>
               </Link>
             </div>
           </div>

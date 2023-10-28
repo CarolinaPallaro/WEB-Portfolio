@@ -9,16 +9,9 @@ const Contact = () => {
    
     return (
       <div className={contactCSS.ContactContainer} id="Contact">
-        <h2>Contacto</h2>
+        <h3>Contacto</h3>
 
         <div className={contactCSS.boton} ><BotonCV/> </div>
-       
-           <Link to="https://wa.me/15448662">
-            <a  href="https://wa.me/15448662">
-             <img className={contactCSS.ico} src="src/public/imgs/ico-whatsapp.png" alt="whatsapp-logo" />
-           </a>
-           </Link>
-
 
        <SendEmail/>
        

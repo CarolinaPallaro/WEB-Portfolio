@@ -6,21 +6,23 @@
     grid-template-columns: 1fr;
     grid-row-gap: 10px;
     max-width: 400px; 
-    margin: 0 auto; /* Centra el formulario horizontalmente */
+    margin: 0 auto; 
     padding: 20px; 
-    background-color:rgba(22, 30, 49, 1); /* Color de fondo gris claro */
-    border-radius: 40px; /* Bordes redondeados */
+    background-color: rgba(20, 21, 25, 0.606) ;
+    border-radius: 40px; 
+   
+    
 }
+
 
   
   
-  
 input[type="text"], input[type="email"] {
-    width: 300px; /* Ocupa todo el ancho del contenedor */
-    padding: 5px; /* Espacio interno del campo de entrada */
-    border: 1px solid #cccccc; /* Borde ligero */
-    border-radius: 10px; /* Bordes redondeados */
-    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    padding: 5px; 
+    border: 1px solid #cccccc; 
+    border-radius: 10px; 
+    font-family: 'Courier Prime', monospace;
     background-color:  rgba(243, 243, 243, 0.853);
 }
    
@@ -33,34 +35,28 @@ textarea {
     padding: 5px;
     border: 1px solid rgb(255 255 255); 
     border-radius: 15px; 
-    font-family: 'Times New Roman', Times, serif;
-    resize: none; /* Evita que el usuario pueda redimensionar el textarea */ 
+    font-family: 'Courier Prime', monospace;
+    resize: none; 
 }
   
 input:hover, textarea:hover {
-    background-color: #fff; /* Cambiar el fondo a blanco al pasar el mouse */
+    background-color: #fff; 
 }
 
 
 input[type="submit"] {
-    background-color: #00000045; /* Fondo gris */
-    color: #fff; /* Texto blanco */
+    background-color: #00000045; 
+    color: rgb(209, 226, 241);
     width: 100px;
-    padding: 5px; /* Reducir el espacio interno */
-    border: none; /* Sin borde */
-    border-radius: 100px; /* Bordes redondeados */
-    cursor: pointer; /* Cambia el cursor al pasar el mouse */
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 14px; /* Tamaño de fuente */
+    padding: 5px; 
+
+    border-radius: 100px; 
+    cursor: pointer; 
+    font-family: 'Courier Prime', monospace;
+    font-size: 14px; 
   }
 
 
-  
- input[type="submit"]:hover{
-    background-color:#f1e3c9d1; 
-    color:rgba(22, 30, 49, 1);
- }
-  
 
   
   

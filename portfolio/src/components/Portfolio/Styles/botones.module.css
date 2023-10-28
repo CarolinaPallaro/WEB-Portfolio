@@ -1,7 +1,7 @@
 /** Estilo para los botones de pantalla principal* */
 /* botones.module.css */
 .button {
-  background-color: #007bff;
+  background-color:rgba(0, 75, 107, 1);
   color: #fff; 
   padding: 10px 20px; 
   border: none; 

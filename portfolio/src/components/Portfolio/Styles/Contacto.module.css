@@ -3,34 +3,24 @@
    align-items: center;
    flex-direction: column;
     grid-gap: 10px;
-    background-color: rgba(22, 30, 49, 1);
+    background-color: rgba(20, 21, 25, 1) ;
     border-radius: 20px;
-   
+    color: rgb(209, 226, 241);
+    font-family: 'Courier Prime', monospace;
     padding: 20px;
     margin-top: 20px;
 }
   
-
-.ContactContainer h2 {
+.ContactContainer h3 {
     text-align: left;  
+    font-size:2rem;
+
 }
   
   
-.ico  {
-    text-decoration: none;
-    transition: color 0.3s;
-    width: 24px;
-    height: 24px;
-    background-color: rgba(22, 30, 49, 1);
-    
-}
-.ico:hover {
-    transform: scale(1.2);
-    box-shadow: 0 2px 10px #0d0d0d;
-  }
-  
-  
-/* Estilo para dispositivos móviles */
+
+
+
 @media (max-width: 768px) {
     .ContactContainer h2 {
       text-align: center; /* Alinea el texto al centro en dispositivos móviles */

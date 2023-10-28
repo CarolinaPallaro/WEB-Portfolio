@@ -1,20 +1,20 @@
 .contain {
-  display: flex;
-  flex-direction: column-reverse;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
   grid-gap: 10px; 
-  
   background-color: rgba(20, 21, 25, 1) ;
   color: rgb(209, 226, 241);
-  padding: 60px;
-  
+  padding: 30px;
+  > *:first-child {
+  grid-column: 2; 
+}
 }
 
+
 .parte1{
-  justify-content: center;
-  display: flex;
+  order: 1fr;
   flex-direction: column;
-  align-items: auto;
-  
+  text-align: center;
   
 }
 .title {
@@ -30,16 +30,24 @@
   flex-wrap: wrap;
   align-content: space-around;
   align-items: center;
+  background-color: rgba(98, 255, 255, 0.732);
 }
 
 .listItem {
+  color: rgba(20, 21, 25, 1);
   margin: 5px;
-  background-color: #ccc;
-  padding: 8px 16px;
-  opacity: 0.8;
-  border: 1px  #666;
-  border-radius: 5px;
-  transition: border 0.3s;
+  padding: 4px 10px;
+  font-family: 'Courier Prime', monospace;
+  font-weight: lighter;
+  font-size: small;
+  
 }
 
 
+@media screen and (max-width: 768px) {
+  .contain {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+}
