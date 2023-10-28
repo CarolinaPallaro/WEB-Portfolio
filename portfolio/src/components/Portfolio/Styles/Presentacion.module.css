@@ -41,9 +41,9 @@
   font-family: sans-serif;
 }
 
-/* Establecer un ancho máximo para el párrafo para evitar que se superponga a la imagen */
+
 .container p {
-  max-width: 60%; /* Ajusta este valor según tus preferencias */
+  max-width: 60%;
 }
 
 @media screen and (max-width: 768px) {

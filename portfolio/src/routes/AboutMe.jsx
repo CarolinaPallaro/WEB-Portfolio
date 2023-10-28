@@ -14,14 +14,11 @@ const AboutMe = () => {
         
         <h2 className={AboutCSS.Title}>About Me</h2>
         <p className={AboutCSS.Paragraph}>
-          Desde pequeña tengo gran curiosidad por saber &#34;como están hechas las cosas&#34;, en especial, como funcionaba el mundo de internet. 
-          Hace <span id="añosEstudio">más de dos año</span>  me animé a dar el salto de confianza y comencé a estudiar programación Web. Aunque al princio Front-End captaba mi atención
-          lo que realmente me atrapó es el mundo del 
-          <span className={AboutCSS.backend}> Back-End</span> que aún sigo explorando.
-          Mi curiosidad y entusiasmo siempre me motivan a superarme en cada proyecto, y, cuando no estoy sobre los navegadores o algún video,
-          disfruto de leer, y especialmente pasar tiempo con Siria, que por si no te diste cuenta, es quien inspiro la pantalla de carga del Portfolio
-          
-          Mi próximo desafío personal es poder realizar una <span className={AboutCSS.ful}> App Fulstack, integrando las tecnologías aprendidas.</span>
+          Econtré en la programación aquello que también motiva mi vida: las ganas de aprender, la curiosidad por experimentar, y la posibilidad de crear a través de código. 
+          Comencé mis estudios en desarrollo Web<span id="añosEstudio"> hace casi tres años </span>y lo que realmente me cautivó fue el mundo del
+          <span className={AboutCSS.backend}> Back-End con JAVA. </span>
+           En la actualidad busco mi lugar en el Mundo IT de forma profesional mientras continúo con mis prácticas y estudio de forma autodidacta. 
+           Mi próximo desafío personal es poder realizar una <span className={AboutCSS.ful}> App Fulstack, integrando las tecnologías aprendidas</span>.
          
         </p>
 
@@ -43,11 +40,15 @@ const AboutMe = () => {
             <a className={AboutCSS.ico}><SiGitlab /></a>
         </Link>
 
-
+          
 
         </div>
       </div>
-    </div>
+
+
+    </div> 
+   
+    
   );
 };
 

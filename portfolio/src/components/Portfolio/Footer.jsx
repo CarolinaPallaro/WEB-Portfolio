@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={FooterCss.footer}>
     
       <div>
-        <p><span>©2023 Carolina Pallaro</span> About this website: Built with React & Vite (App Router & Server Actions) Email JS. Deployed on Vercel.</p>
+        <p><span className={FooterCss.thisWeb}>©2023 Carolina Pallaro</span> About this website: Built with React & Vite (App Router & Server Actions) Email JS. Deployed on Vercel.</p>
       </div>
     </footer>
   );

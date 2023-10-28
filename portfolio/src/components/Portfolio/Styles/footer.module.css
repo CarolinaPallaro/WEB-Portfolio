@@ -1,4 +1,4 @@
-footer, span{
+footer, .thisWeb{
   display: flex;
   justify-content: center;
   flex-direction: column;

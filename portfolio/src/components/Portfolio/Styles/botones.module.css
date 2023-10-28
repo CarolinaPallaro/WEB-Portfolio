@@ -8,6 +8,7 @@
   border-radius: 5px; 
   cursor: pointer;
   margin-right: 10px; 
+  
 }
 
 .buttonLink {
@@ -23,7 +24,7 @@
   color: #fff;
   padding: 10px 20px;
   border: none;
-  font-family: 'Times New Roman', Times;
+  font-family: 'Courier Prime', monospace;
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
