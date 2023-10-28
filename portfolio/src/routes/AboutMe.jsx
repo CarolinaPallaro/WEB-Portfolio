@@ -5,7 +5,6 @@ import { BsLinkedin } from 'react-icons/bs';
 import { SiGitlab } from 'react-icons/si';
 import { Link } from "react-router-dom";
 import AboutCSS from "../components/Portfolio/Styles/AboutMe.module.css";
-import NeonFondo from "../components/Portfolio/NeonFondo";
 
 const AboutMe = () => {
   return (
