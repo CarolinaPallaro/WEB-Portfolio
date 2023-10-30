@@ -18,7 +18,7 @@ const AboutMe = () => {
           Comencé mis estudios en desarrollo Web<span id="añosEstudio"> hace casi tres años </span>y lo que realmente me cautivó fue el mundo del
           <span className={AboutCSS.backend}> Back-End con JAVA. </span>
            En la actualidad busco mi lugar en el Mundo IT de forma profesional mientras continúo con mis prácticas y estudio de forma autodidacta. 
-           Mi próximo desafío personal es poder realizar una <span className={AboutCSS.ful}> App Fulstack, integrando las tecnologías aprendidas</span>.
+           Mi próximo desafío personal es poder realizar una <span className={AboutCSS.ful}> App Fullstack, integrando las tecnologías aprendidas</span>.
          
         </p>
 

@@ -16,7 +16,7 @@ export const  Presentacion= () => {
         <p className={presentCSS.textContain}> 
           <span id='Hola' 
           className={presentCSS.hola}><strong>Hola soy Caro!</strong></span>Cuento con<span
-            className={presentCSS.exp}> + 2 años</span> de formación en desarrollo Web, especialmente en el desarrollo Backend con JAVA. <br />Mi objetivo actual es crear
+            className={presentCSS.exp}> + 2 años</span> de formación en desarrollo Web, especialmente en el desarrollo Backend con JAVA. <br />Mi objetivo actual es desarrollar
           <span id="actualidad"className={presentCSS.actualidad}> aplicaciones más seguras y dinámicas.
            </span>
 
